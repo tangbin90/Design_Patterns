@@ -1,6 +1,5 @@
 C:\Users\tangbin\Documents\GitHub\Design_Patterns\DesignPatern_SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.exe.config
 C:\Users\tangbin\Documents\GitHub\Design_Patterns\DesignPatern_SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.exe
 C:\Users\tangbin\Documents\GitHub\Design_Patterns\DesignPatern_SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.pdb
-C:\Users\tangbin\Documents\GitHub\Design_Patterns\DesignPatern_SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csprojResolveAssemblyReference.cache
 C:\Users\tangbin\Documents\GitHub\Design_Patterns\DesignPatern_SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.exe
 C:\Users\tangbin\Documents\GitHub\Design_Patterns\DesignPatern_SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.pdb
