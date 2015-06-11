@@ -49,8 +49,8 @@ namespace CheckSystem
         private void button1_Click(object sender, EventArgs e)
         {
             double totalPrices = 0d;
-            CashBase cashbase = CashFactory.creatCashAccept(calway.SelectedItem.ToString());
-            totalPrices = cashbase.acceptCash(Convert.ToDouble(textBox1.Text) * Convert.ToDouble(textBox2.Text));
+            CashContex cashcontex = new CashContex(calway.SelectedItem.ToString());
+            totalPrices = cashcontex.CashResult(Convert.ToDouble(textBox1.Text) * Convert.ToDouble(textBox2.Text));
 
             total = total + totalPrices;
             listBox1.Items.Add("单价: " + textBox1.Text + "数量: " + textBox2.Text + " " + calway.SelectedItem + " 合计： " + totalPrices.ToString());

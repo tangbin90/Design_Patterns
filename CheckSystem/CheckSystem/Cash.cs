@@ -63,26 +63,28 @@ namespace CheckSystem
         }
     }
 
-    class CashFactory
+    class CashContex
     {
-        public static CashBase creatCashAccept(string type)
+        private CashBase cashcal;
+        public CashContex(string type)
         {
-            CashBase cs = null;
             switch(type)
             {
                 case "正常收费":
-                    cs=new CashNormal();
+                    cashcal = new CashNormal();
                     break;
                 case "满300反100":
-                    CashReturn crl = new CashReturn("300","100");
-                    cs=crl;
+                    cashcal = new CashReturn("300", "100");
                     break;
                 case "打八折":
-                    CashCount cr2 = new CashCount("0.8");
-                    cs = cr2;
+                    cashcal = new CashCount("0.8");
                     break;
             }
-            return cs;
+        }
+
+        public double CashResult(double money)
+        {
+            return cashcal.acceptCash(money);
         }
 
     }
